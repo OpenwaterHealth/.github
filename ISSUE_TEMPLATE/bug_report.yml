@@ -1,0 +1,112 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! This helps make Openwater better for everyone.
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Pre-submission Checklist
+      options:
+        - label: I have searched existing issues
+          required: true
+        - label: I have read the documentation
+          required: true
+        - label: I am using the latest version
+          required: false
+          
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this bug?
+      options:
+        - Critical (system crash, data loss, patient safety)
+        - High (major functionality broken)
+        - Medium (feature partially broken)
+        - Low (cosmetic issue, typo)
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform is affected?
+      options:
+        - OpenLIFU
+        - OpenMOTION
+        - Documentation
+        - Website
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clear, concise description of the bug
+      placeholder: What happened?
+    validations:
+      required: true
+      
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+      placeholder: Expected result
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we reproduce this?
+      placeholder: |
+        1. Go to '...'
+        2. Run command '...'
+        3. See error
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: System information
+      placeholder: |
+        OS: Windows 11 / Ubuntu 22.04 / macOS 14
+        Python: 3.9.7
+        Package version: 2.1.0
+        Hardware: (if applicable)
+      value: |
+        - OS: 
+        - Python: 
+        - Version: 
+    validations:
+      required: true
+      
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and Error Messages
+      description: Paste relevant logs or error messages
+      render: shell
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Screenshots, videos, or other helpful information
