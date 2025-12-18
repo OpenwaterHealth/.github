@@ -75,4 +75,4 @@ Built with support from the global open-source medical device community. Special
 
 ---
 
-**Status:** 🚧 Under Active Development | Last Updated: November 2025
+**Status:** 🚧 Under Active Development | Last Updated: December 18, 2025
