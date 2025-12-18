@@ -1,6 +1,5 @@
-<p align-"center">
-  <img src="openwater-3.png" alt="Openwater Commons" width="100%">
-</p>
+# Welcome to Openwater 👋
+![OpenwaterHealth Banner](openwater-3.png)
 
 <p align="center">
   <a href="https://dblizinski.github.io/openwater-community/index.html">Website</a>
