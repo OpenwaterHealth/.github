@@ -1,146 +1,79 @@
+<p align-"center">
+  <img src="openwater-3.png" alt="Openwater Commons" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://dblizinski.github.io/openwater-community/index.html">Website</a>
+  <a href="#">Blog</a>
+  <a href="#">YouTube</a>
+  <a href="#">X</a>
+</p>
+
 # Openwater Commons
 
-<div align="center">
-
-![Openwater Banner](https://raw.githubusercontent.com/OpenwaterHealth/openwater-commons/main/.github/assets/openwater-commons-banner.png)
-
-**Building the Linux of Medical Devices**
-
-Open-source hardware and software for Low Intensity Focused Ultrasound (LIFU) and near-infrared optical imaging
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-7289da)](https://discord.gg/openwater)
-[![Documentation](https://img.shields.io/badge/Docs-docs.openwater.health-brightgreen)](https://docs.openwater.health)
-
-[Website](https://openwater.health) • [Documentation](https://docs.openwater.health) • [Community](https://github.com/OpenwaterHealth/openwater-commons) • [Discord](https://discord.gg/5MS8ZAHj)
-
-</div>
-
----
+> Building open-source medical devices - an open-source platform democratizing medical imaging and neuromodulation technology.
 
 ## 🎯 Mission
 
-Reduce medical device development costs from **$119M to $15M** through open-source collaboration, bringing advanced healthcare technology to **3.5 billion underserved people** worldwide.
+Reduce medical device development costs from $119M to $15M through open-source collaboration, bringing advanced healthcare technology to 3.5 billion underserved people worldwide.
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-**New to Openwater?**
-- 📖 [Read the Documentation](https://docs.openwater.health)
-- 🎓 [Quickstart Tutorial](https://github.com/OpenwaterHealth/openwater-commons/blob/main/docs/getting-started/quickstart.md)
-- 💬 [Join Discord Community](https://discord.gg/openwater)
-- 🤝 [Contributing Guide](https://github.com/OpenwaterHealth/openwater-commons/blob/main/CONTRIBUTING.md)
+**For Developers:** [Getting Started Guide](docs/getting-started.md) (Coming Soon)  
+**For Researchers:** [Research Partnerships](docs/research-partnerships.md) (Coming Soon)  
+**For Contributors:** [Contribution Guidelines](CONTRIBUTING.md) (Coming Soon)
 
-**For Developers:**
-- 🔨 [Development Setup](https://docs.openwater.health/developer-guide/setup/)
-- 🐛 [Good First Issues](https://github.com/search?q=org%3AOpenwaterHealth+label%3A%22good+first+issue%22&type=issues)
-- 📚 [API Documentation](https://docs.openwater.health/api/)
+## 🏗️ Platform Components
 
-**For Researchers:**
-- 🔬 [Research Partnerships](https://openwater.health/research)
-- 📄 [Academic Publications](https://github.com/OpenwaterHealth/openwater-commons/blob/main/docs/resources/research-papers.md)
-- 🏥 [Clinical Trials](https://openwater.health/trials)
+### OpenLIFU (Low Intensity Focused Ultrasound)
+- [OpenLIFU-python](https://github.com/OpenwaterHealth/OpenLIFU-python) - Core toolbox
+- [SlicerOpenLIFU](https://github.com/OpenwaterHealth/SlicerOpenLIFU) - 3D Slicer extension
 
-## 🏗️ Core Platforms
+### OpenMOTION (Motion Tracking & Imaging)
+- [OpenMOTION-Pylib](https://github.com/OpenwaterHealth/OpenMOTION-Pylib) - Python library
+- Additional components coming soon
 
-### OpenLIFU - Low Intensity Focused Ultrasound
-Non-invasive neuromodulation for treating neurological conditions
+## 📋 Current Status
 
-**Key Repositories:**
-- [`OpenLIFU-python`](https://github.com/OpenwaterHealth/OpenLIFU-python) - Core Python toolbox (⭐ 14)
-- [`SlicerOpenLIFU`](https://github.com/OpenwaterHealth/SlicerOpenLIFU) - 3D Slicer integration
-- [`OpenLIFU-hardware`](https://github.com/OpenwaterHealth) - Hardware designs (coming soon)
+⚠️ **Active Transition:** We're currently restructuring our GitHub organization and transitioning from AGPL-3.0 to Apache 2.0 licensing. [Learn why](docs/LICENSE-TRANSITION.md) (Coming Soon)
 
-### OpenMOTION - Near-Infrared Optical Imaging
-Real-time blood flow and oxygenation monitoring
+- **Organization Restructure:** In Progress (Week 1 of 12)
+- **License Transition:** Planning Phase
+- **Community Infrastructure:** Building
+- **Documentation Site:** Coming Soon
 
-**Key Repositories:**
-- [`OpenMOTION-Pylib`](https://github.com/OpenwaterHealth/OpenMOTION-Pylib) - Python communication library
-- [`opw_bloodflow_gen1_sw`](https://github.com/OpenwaterHealth/opw_bloodflow_gen1_sw) - Gen1 blood flow analysis
-- [`OpenMOTION-hardware`](https://github.com/OpenwaterHealth) - Hardware designs (coming soon)
+## 🤝 Get Involved
 
-## 📊 Impact & Traction
+We're building a global community of developers, researchers, and clinicians. Ways to participate:
 
-- 🏥 **Mayo Clinic Partnership** - $200K pilot program expanding to clinical deployment
-- 🎯 **3 FDA Breakthrough Designations** - Fast-track regulatory pathway
-- 🌍 **50+ Universities** - Global research partnerships
-- 👥 **2,000+ Developers** - Active community contributors
-- 📈 **487 Contributions** - Q4 2024 meaningful contributions
-
-## 🤝 Community
-
-**Join the Movement:**
-- 💬 [Discord Community](https://discord.gg/5MS8ZAHj) - Real-time discussions
-- 📧 [Mailing List](https://openwater.health/newsletter) - Monthly updates
-- 🐦 [Twitter/X](https://twitter.com/OpenwaterHealth) - News and announcements
-- 💼 [LinkedIn](https://www.linkedin.com/company/openwater-health/) - Professional network
-
-**Community Programs:**
-- 🎓 [Developer Certification](https://docs.openwater.health/certification/)
-- 💰 [Bounty Program](https://github.com/OpenwaterHealth/openwater-commons/issues?q=is%3Aissue+is%3Aopen+label%3Abounty)
-- 🏆 [Community Grants](https://github.com/OpenwaterHealth/openwater-governance/blob/main/grants/README.md) - $50K annual pool
-- 🎤 [Monthly Community Calls](https://github.com/OpenwaterHealth/openwater-commons/blob/main/community/monthly-meetings.md)
+- 💬 **Join the Discussion:** GitHub Discussions (Launching Soon)
+- 📚 **Improve Docs:** Documentation contributions welcome
+- 🐛 **Report Issues:** Help us improve quality
+- 🎓 **Academic Research:** Research partnership opportunities available
 
 ## 📚 Resources
 
-- 📖 [Documentation Site](https://docs.openwater.health)
-- 🎥 [Video Tutorials](https://www.youtube.com/@OpenwaterHealth)
-- 📄 [Research Papers](https://github.com/OpenwaterHealth/openwater-commons/blob/main/docs/resources/research-papers.md)
-- 🗺️ [Public Roadmap](https://github.com/OpenwaterHealth/openwater-commons/blob/main/ROADMAP.md)
-- ❓ [FAQ](https://docs.openwater.health/faq/)
+- **Website:** [openwater.health](https://openwater.health)
+- **Documentation:** [docs.openwater.health](https://docs.openwater.health) (Coming Soon)
+- **Forum:** Coming Soon
+- **Community Chat:** Coming Soon
 
-## 🎯 Governance
+## 📊 Governance
 
-Openwater uses a **Technical Steering Committee (TSC)** governance model inspired by CNCF and Linux Foundation:
+Openwater uses a Technical Steering Committee (TSC) governance model inspired by CNCF and Linux Foundation practices.
 
-- 🏛️ [Governance Charter](https://github.com/OpenwaterHealth/openwater-governance/blob/main/CHARTER.md)
-- 👥 [TSC Members](https://github.com/OpenwaterHealth/openwater-governance/blob/main/MEMBERS.md)
-- 📋 [RFC Process](https://github.com/OpenwaterHealth/openwater-governance/blob/main/rfcs/README.md)
-- 🗳️ [Community Elections](https://github.com/OpenwaterHealth/openwater-governance/blob/main/elections/README.md)
+- [Governance Charter](GOVERNANCE.md) (Coming Soon)
+- [TSC Members](docs/community/tsc.md) (Coming Soon)
+- [Decision-Making Process](docs/community/rfc-process.md) (Coming Soon)
 
-## 📄 Licensing
+## 📄 License
 
-**Software & Firmware:** [Apache 2.0](https://opensource.org/licenses/Apache-2.0) - Permissive, clinical-translation friendly
+This project is licensed under the AGPL 3.0 - see the [LICENSE](LICENSE) file for details.
 
-**Hardware Designs:** [CERN-OHL-P](https://ohwr.org/cern_ohl_p_v2.txt) - Permissive open hardware license
+## 🌟 Acknowledgments
 
-**Documentation:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - Free to share and adapt
-
-[Why Apache 2.0?](https://github.com/OpenwaterHealth/openwater-commons/blob/main/docs/LICENSE-TRANSITION.md) Learn about our transition from AGPL to enable clinical translation.
-
-## 🌟 Featured Projects
-
-- 🧠 [Brain Stimulation Research](https://github.com/OpenwaterHealth/openwater-commons/blob/main/community/showcase-projects/brain-stimulation.md) - Stanford collaboration
-- 🩺 [Stroke Detection](https://github.com/OpenwaterHealth/opw_bloodflow_gen1_sw) - Real-time bloodflow monitoring
-- 🔬 [Pulse Sequence Library](https://github.com/OpenwaterHealth) - Community-contributed sequences (coming soon)
-
-[Browse all community projects →](https://github.com/OpenwaterHealth/awesome-openwater)
-
-## 💼 Commercial & Partnership Opportunities
-
-- 🏢 **Enterprise Support** - Professional services and SLAs
-- 🔬 **Research Partnerships** - Academic collaboration programs
-- 🏭 **OEM Licensing** - Hardware manufacturing partnerships
-- 💊 **Pharma Data Partnerships** - Clinical trial data collaboration
-
-[Contact partnerships@openwater.health](mailto:partnerships@openwater.health)
-
-## 🚀 Quick Stats
-
-```
-48 Repositories  •  2,000+ Contributors  •  50+ Universities
-14 Stars (OpenLIFU-python)  •  487 Q4 Contributions
-Mayo Clinic Partnership  •  3 FDA Breakthrough Designations
-$200K Pilot → $1M+ Pipeline  •  Mission: Serve 3.5B People
-```
+Built with support from the global open-source medical device community. Special thanks to our research partners and contributors.
 
 ---
 
-<div align="center">
-
-**Building Open-Source Medical Devices for Global Health Equity**
-
-[Get Started](https://docs.openwater.health) • [Contribute](https://github.com/OpenwaterHealth/openwater-commons/blob/main/CONTRIBUTING.md) • [Join Discord](https://discord.gg/openwater)
-
-Made with ❤️ by the global Openwater community
-
-</div>
+**Status:** 🚧 Under Active Development | Last Updated: November 2025
