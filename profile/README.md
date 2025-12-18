@@ -34,7 +34,7 @@ Reduce medical device development costs from $119M to $15M through open-source c
 
 ## 📋 Current Status
 
-⚠️ **Active Transition:** We're currently restructuring our GitHub organization and transitioning from AGPL-3.0 to Apache 2.0 licensing. [Learn why](docs/LICENSE-TRANSITION.md) (Coming Soon)
+⚠️ **Active Transition:** We're currently restructuring our GitHub organization (Coming Soon)
 
 - **Organization Restructure:** In Progress (Week 1 of 12)
 - **License Transition:** Planning Phase
