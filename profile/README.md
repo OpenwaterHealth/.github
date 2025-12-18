@@ -2,7 +2,7 @@
 ![OpenwaterHealth Banner](openwater-3.png)
 
 <p align="center">
-  <a href="https://dblizinski.github.io/openwater-community/index.html">Website</a>
+  <a href="https://openwater.health">Website</a>
   <a href="#">Blog</a>
   <a href="#">YouTube</a>
   <a href="#">X</a>
