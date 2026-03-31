@@ -30,7 +30,7 @@ Reduce medical device development costs from $119M to $15M through open-source c
 - [SlicerOpenLIFU](https://github.com/OpenwaterHealth/SlicerOpenLIFU) - 3D Slicer extension
 
 ### OpenMOTION (Motion Tracking & Imaging)
-- [OpenMOTION-Pylib](https://github.com/OpenwaterHealth/OpenMOTION-Pylib) - Python library
+- [openmotion-sdk](https://github.com/OpenwaterHealth/openmotion-sdk) - Python library
 - Additional components coming soon
 
 ## 📋 Current Status
