@@ -62,10 +62,10 @@ We're building a global community of developers, researchers, and clinicians. Wa
 
 Openwater uses a Technical Steering Committee (TSC) governance model inspired by CNCF and Linux Foundation practices.
 
-- [Quality Statement]([QUALITY_STATEMENT.md](https://github.com/OpenwaterHealth/.github/blob/main/QUALITY_STATEMENT.md))
-- [Governance Charter](GOVERNANCE.md) (Coming Soon)
-- [TSC Members](docs/community/tsc.md) (Coming Soon)
-- [Decision-Making Process](docs/community/rfc-process.md) (Coming Soon)
+- [Quality Statement](https://github.com/OpenwaterHealth/.github/blob/main/QUALITY_STATEMENT.md))
+- [Governance Charter] (Coming Soon)
+- [TSC Members] (Coming Soon)
+- [Decision-Making Process] (Coming Soon)
 
 ## 📄 License
 
