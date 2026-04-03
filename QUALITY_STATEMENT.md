@@ -1,4 +1,4 @@
-# Quality Policy
+# Quality Statement
 
 Openwater maintains a formal Quality Management System (QMS) in compliance with FDA 21 CFR Part 820 and ISO 13485. Our quality policy reflects three core commitments:
 
