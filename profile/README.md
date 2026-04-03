@@ -33,15 +33,6 @@ Reduce medical device development costs from $119M to $15M through open-source c
 - [openmotion-sdk](https://github.com/OpenwaterHealth/openmotion-sdk) - Python library
 - Additional components coming soon
 
-## 📋 Current Status
-
-⚠️ **Active Transition:** We're currently restructuring our GitHub organization (Coming Soon)
-
-- **Organization Restructure:** In Progress (Week 1 of 12)
-- **License Transition:** Planning Phase
-- **Community Infrastructure:** Building
-- **Documentation Site:** Coming Soon
-
 ## 🤝 Get Involved
 
 We're building a global community of developers, researchers, and clinicians. Ways to participate:
