@@ -53,10 +53,10 @@ We're building a global community of developers, researchers, and clinicians. Wa
 
 Openwater uses a Technical Steering Committee (TSC) governance model inspired by CNCF and Linux Foundation practices, adapted for the unique requirements of open-source medical device development.
 
-- [Governance Charter](https://github.com/OpenwaterHealth/.github/blob/main/GOVERNANCE.md) — Roles, decision-making, contribution evaluation, safety, and regulatory governance
-- [Quality Statement](https://github.com/OpenwaterHealth/.github/blob/main/QUALITY_STATEMENT.md)
-- [Code of Conduct](https://github.com/OpenwaterHealth/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md)
+- [Governance Charter](https://github.com/OpenwaterHealth/.github/blob/main/GOVERNANCE.md) - Roles, decision-making, contribution evaluation, safety, and regulatory governance
+- [Quality Statement](https://github.com/OpenwaterHealth/.github/blob/main/QUALITY_STATEMENT.md) - Standards for code quality, testing, documentation, and release readiness
+- [Code of Conduct](https://github.com/OpenwaterHealth/.github/blob/main/CODE_OF_CONDUCT.md) - Expected behavior, reporting process, and enforcement policies for all community spaces
+- [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md) - How to submit issues, pull requests, research data, and hardware designs
 
 ## 📄 License
 
