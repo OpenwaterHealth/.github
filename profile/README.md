@@ -20,7 +20,7 @@ Reduce medical device development costs from $119M to $15M through open-source c
 
 **For Developers:** [Getting Started Guide](docs/getting-started.md) (Coming Soon)
 **For Researchers:** [Research Partnerships](docs/research-partnerships.md) (Coming Soon)
-**For Contributors:** [Contribution Guidelines](CONTRIBUTING.md) (Coming Soon)
+**For Contributors:** [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md)
 
 ## 🏗️ Platform Components
 
@@ -53,10 +53,10 @@ We're building a global community of developers, researchers, and clinicians. Wa
 
 Openwater uses a Technical Steering Committee (TSC) governance model inspired by CNCF and Linux Foundation practices, adapted for the unique requirements of open-source medical device development.
 
-- [**Governance Charter**](GOVERNANCE.md) — Roles, decision-making, contribution evaluation, safety and regulatory governance
+- [Governance Charter](https://github.com/OpenwaterHealth/.github/blob/main/GOVERNANCE.md) — Roles, decision-making, contribution evaluation, safety, and regulatory governance
 - [Quality Statement](https://github.com/OpenwaterHealth/.github/blob/main/QUALITY_STATEMENT.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md) (Coming Soon)
-- [Contribution Guidelines](CONTRIBUTING.md) (Coming Soon)
+- [Code of Conduct](https://github.com/OpenwaterHealth/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md)
 
 ## 📄 License
 
