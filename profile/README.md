@@ -2,10 +2,10 @@
 ![OpenwaterHealth Banner](openwater-3.png)
 
 <p align="center">
-  <a href="https://openwater.health">Website</a>
-  <a href="#">Blog</a>
-  <a href="#">YouTube</a>
-  <a href="#">X</a>
+  <a href="https://openwater.health">Website</a> &nbsp;|&nbsp;
+  <a href="#">Blog</a> &nbsp;|&nbsp;
+  <a href="#">YouTube</a> &nbsp;|&nbsp;
+  <a href="#">X</a> &nbsp;|&nbsp;>
   <a href="https://discord.gg/fS7vfAX4fA"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
 
