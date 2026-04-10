@@ -38,7 +38,7 @@ Reduce medical device development costs from $119M to $15M through open-source c
 
 We're building a global community of developers, researchers, and clinicians. Ways to participate:
 
-- 💬 **Join the Discussion:** GitHub Discussions (Launching Soon)
+- 💬 **Join the Discussion:** [Discord Community](https://discord.gg/fS7vfAX4fA) | GitHub Discussions
 - 📚 **Improve Docs:** Documentation contributions welcome
 - 🐛 **Report Issues:** Help us improve quality
 - 🎓 **Academic Research:** Research partnership opportunities available
@@ -48,7 +48,7 @@ We're building a global community of developers, researchers, and clinicians. Wa
 - **Website:** [openwater.health](https://openwater.health)
 - **Documentation:** [docs.openwater.health](https://docs.openwater.health) (Coming Soon)
 - **Forum:** Coming Soon
-- **Community Chat:** Coming Soon
+- **Community Chat:** [Discord](https://discord.gg/fS7vfAX4fA)
 
 ## 📊 Governance
 
