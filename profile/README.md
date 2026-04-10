@@ -6,7 +6,7 @@
   <a href="#">Blog</a>
   <a href="#">YouTube</a>
   <a href="#">X</a>
-  <a href="https://discord.gg/fS7vfAX4fA">Discord</a>
+  <a href="https://discord.gg/fS7vfAX4fA"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
 
 # Openwater Commons
