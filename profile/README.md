@@ -19,9 +19,10 @@ Reduce medical device development costs from $119M to $15M through open-source c
 
 ## 🚀 Quick Start
 
-**For Developers:** [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md)
-**For Researchers:** [Discord Community](https://discord.gg/fS7vfAX4fA) — reach out about research partnerships
-**For Contributors:** [Code of Conduct](https://github.com/OpenwaterHealth/.github/blob/main/CODE_OF_CONDUCT.md) | [Security Policy](https://github.com/OpenwaterHealth/.github/blob/main/SECURITY.md)
+**For Developers:** [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md)<br>
+**For Researchers:** [Discord Community](https://discord.gg/fS7vfAX4fA) — reach out about research partnerships<br>
+**For Contributors:** [Code of Conduct](https://github.com/OpenwaterHealth/.github/blob/main/CODE_OF_CONDUCT.md)<br>
+[Security Policy](https://github.com/OpenwaterHealth/.github/blob/main/SECURITY.md)(...)
 
 ---
 
