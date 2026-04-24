@@ -29,7 +29,7 @@ Reduce medical device development costs from $119M to $15M through open-source c
 
 Openwater maintains two open-source medical device platforms. Each platform spans software, firmware, and hardware — everything needed to build, modify, and manufacture the device.
 
-### OpenLIFU — Low-Intensity Focused Ultrasound
+### Open-LIFU — Low-Intensity Focused Ultrasound
 
 An open-source platform for focused ultrasound neuromodulation research planning and delivery.
 
@@ -39,7 +39,7 @@ An open-source platform for focused ultrasound neuromodulation research planning
 |:-----------|:------------|
 | [**openlifu-python**](https://github.com/OpenwaterHealth/openlifu-python) | Core Python toolbox for treatment planning, simulation, and transducer control |
 | [**openlifu-desktop-application**](https://github.com/OpenwaterHealth/openlifu-desktop-application) | Desktop GUI for sonication planning and system control (C++) |
-| [**SlicerOpenLIFU**](https://github.com/OpenwaterHealth/SlicerOpenLIFU) | 3D Slicer extension for OpenLIFU treatment planning |
+| [**SlicerOpenLIFU**](https://github.com/OpenwaterHealth/SlicerOpenLIFU) | 3D Slicer extension for Open-LIFU treatment planning |
 | [**openlifu-sdk**](https://github.com/OpenwaterHealth/openlifu-sdk) | Standalone hardware I/O interface library |
 | [**OpenLIFU-3DScanner**](https://github.com/OpenwaterHealth/OpenLIFU-3DScanner) | 3D mesh capture application for patient registration (Kotlin) |
 
@@ -55,8 +55,8 @@ An open-source platform for focused ultrasound neuromodulation research planning
 
 | Repository | Description |
 |:-----------|:------------|
-| [**openlifu-electrical**](https://github.com/OpenwaterHealth/openlifu-electrical) | PCB schematics, Gerber files, and BOMs for all OpenLIFU boards |
-| [**OpenLIFU-Mechanical**](https://github.com/OpenwaterHealth/OpenLIFU-Mechanical) | Mechanical CAD files and enclosure designs |
+| [**openlifu-electrical**](https://github.com/OpenwaterHealth/openlifu-electrical) | PCB schematics, Gerber files, and BOMs for all Open-LIFU boards |
+| [**openlifu-mechanical**](https://github.com/OpenwaterHealth/OpenLIFU-Mechanical) | Mechanical CAD files and enclosure designs |
 
 #### Testing & Validation
 
@@ -69,7 +69,7 @@ An open-source platform for focused ultrasound neuromodulation research planning
 
 ---
 
-### OpenMOTION — Near-Infrared Optical Blood Flow Imaging
+### Open-Motion — Near-Infrared Optical Blood Flow Imaging
 
 An open-source platform for non-invasive cerebral blood flow measurement, with clinical validation data from a multi-site stroke study.
 
@@ -135,4 +135,4 @@ Built with support from the global open-source medical device community. Special
 
 ---
 
-**Status:** 🚧 Under Active Development | Last Updated: April 21, 2026
+**Status:** 🚧 Under Active Development | Last Updated: April 24, 2026
