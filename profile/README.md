@@ -96,7 +96,7 @@ An open-source platform for non-invasive cerebral blood flow measurement, with c
 
 | Repository | Description |
 |:-----------|:------------|
-| [**openmotion-electrical**](https://github.com/OpenwaterHealth/openmotion-electrical) | PCB schematics and manufacturing files for all OpenMOTION boards |
+| [**openmotion-electrical**](https://github.com/OpenwaterHealth/openmotion-electrical) | PCB schematics and manufacturing files for all Open-Motion boards |
 | [**openmotion-mechanical**](https://github.com/OpenwaterHealth/openmotion-mechanical) | Mechanical CAD files and enclosure designs |
 
 ---
