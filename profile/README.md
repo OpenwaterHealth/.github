@@ -129,9 +129,21 @@ Openwater uses a Technical Steering Committee (TSC) governance model inspired by
 - [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md) — How to submit issues, pull requests, research data, and hardware designs
 - [Security Policy](https://github.com/OpenwaterHealth/.github/blob/main/SECURITY.md) — Vulnerability reporting and responsible disclosure
 
-## 📄 License
+## 📄 How our software is licensed
 
-This project is licensed under the AGPL 3.0 — see the [LICENSE](LICENSE) file for details.
+Openwater uses a deliberate two-layer licensing model:
+
+- **AGPL-3.0 core — permanent.** The foundational scientific work (device firmware, sensing and
+  measurement algorithms, beamforming, reconstruction, signal processing, calibration, and hardware
+  reference designs) is licensed **AGPL-3.0 and stays that way.** Moving anything out of the core
+  requires explicit board approval.
+- **Apache-2.0 extensions.** The integration layer — 3D Slicer extensions, wellness and veterinary
+  modules, partner SDKs, and language bindings — is Apache-2.0, so researchers, clinicians, and
+  companies can adopt and build on it freely.
+
+The authoritative, per-path assignment lives in
+[`license-manifest`](https://github.com/OpenwaterHealth/license-manifest) — its public Git history is
+the audit trail. Questions? Open a **License question** issue on any repo..
 
 ## 🌟 Acknowledgments
 
