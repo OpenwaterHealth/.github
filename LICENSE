@@ -1,0 +1,12 @@
+Content in this repository is licensed as follows:
+
+- Documentation and templates (Markdown, issue/PR templates, profile): CC-BY-4.0
+  https://creativecommons.org/licenses/by/4.0/
+- Scripts under scripts/ and machine-readable config (labels.yml, rulesets/): Apache-2.0
+  https://www.apache.org/licenses/LICENSE-2.0
+
+SPDX-License-Identifier: CC-BY-4.0 AND Apache-2.0
+
+This LICENSE governs only the contents of the OpenwaterHealth/.github repository. It does not
+change the license of any other repository. Canonical, per-path license assignments for all
+Openwater repositories are maintained in OpenwaterHealth/license-manifest.

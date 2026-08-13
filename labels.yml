@@ -1,0 +1,39 @@
+# Canonical Openwater org label set.
+# Apply to a repo with scripts/apply-labels.sh <owner/repo>.
+# GitHub has no native "org-wide labels", so these are synced per-repo.
+
+- name: license
+  color: "0E8A16"
+  description: "Licensing question or assignment (AGPL core vs. Apache extension)"
+
+- name: manifest-change
+  color: "1D76DB"
+  description: "Proposes a change to license-manifest assignments"
+
+- name: core-boundary
+  color: "B60205"
+  description: "Touches the permanent AGPL core boundary - requires board approval"
+
+- name: certification
+  color: "5319E7"
+  description: "Openwater-Certified program - application, audit, or agreement"
+
+- name: conformance
+  color: "FBCA04"
+  description: "Conformance test suite, schemas, or reports"
+
+- name: bug
+  color: "D73A4A"
+  description: "Something isn't working"
+
+- name: enhancement
+  color: "A2EEEF"
+  description: "New feature or request"
+
+- name: security
+  color: "EE0701"
+  description: "Security-sensitive; follow SECURITY.md (do not post details publicly)"
+
+- name: housekeeping
+  color: "C5DEF5"
+  description: "SPDX headers, README badges, manifest entries"

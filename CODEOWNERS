@@ -1,0 +1,5 @@
+# Default owners for the org-defaults repo.
+# Replace with real GitHub teams before publishing.
+*                 @OpenwaterHealth/platform
+/TRADEMARK.md     @OpenwaterHealth/leadership @OpenwaterHealth/legal
+/CODE_OF_CONDUCT.md @OpenwaterHealth/leadership
