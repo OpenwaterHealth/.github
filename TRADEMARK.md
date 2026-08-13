@@ -52,4 +52,4 @@ willful violations, per the June 24, 2026 architecture) as the remedy against de
 
 ## Contact
 
-Trademark and certification questions: **legal@openwater.health** *(placeholder — confirm)*.
+Trademark and certification questions: **community@openwater.health**.
