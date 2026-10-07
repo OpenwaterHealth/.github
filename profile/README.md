@@ -129,21 +129,11 @@ Openwater uses a Technical Steering Committee (TSC) governance model inspired by
 - [Contribution Guidelines](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md) — How to submit issues, pull requests, research data, and hardware designs
 - [Security Policy](https://github.com/OpenwaterHealth/.github/blob/main/SECURITY.md) — Vulnerability reporting and responsible disclosure
 
-## 📄 How our software is licensed
+## 📄 How Openwater repositories are licensed
 
-Openwater uses a deliberate two-layer licensing model:
+Openwater uses four license layers: **AGPL-3.0-or-later** for the reciprocal software core, **Apache-2.0** for permissive software and integrations (including OpenMOTION firmware and all bootloaders), **CERN-OHL-S-2.0** for hardware reference designs, and **CC-BY-4.0** for documentation and sample data. See the [contribution policy](https://github.com/OpenwaterHealth/.github/blob/main/CONTRIBUTING.md) for the boundaries.
 
-- **AGPL-3.0 core — permanent.** The foundational scientific work (device firmware, sensing and
-  measurement algorithms, beamforming, reconstruction, signal processing, calibration, and hardware
-  reference designs) is licensed **AGPL-3.0 and stays that way.** Moving anything out of the core
-  requires explicit board approval.
-- **Apache-2.0 extensions.** The integration layer — 3D Slicer extensions, wellness and veterinary
-  modules, partner SDKs, and language bindings — is Apache-2.0, so researchers, clinicians, and
-  companies can adopt and build on it freely.
-
-The authoritative, per-path assignment lives in
-[`license-manifest`](https://github.com/OpenwaterHealth/license-manifest) — its public Git history is
-the audit trail. Questions? Open a **License question** issue on any repo..
+A repository's current LICENSE file controls its published contents. Approved SlicerOpenLIFU and hardware relicensing takes effect only after contributor rights are confirmed and the repository license changes are merged. The per-path [license manifest](https://github.com/OpenwaterHealth/license-manifest) will be updated in a separate publication step. Open a license question in the relevant repository if an assignment is unclear.
 
 ## 🌟 Acknowledgments
 

@@ -1,24 +1,23 @@
 ## Summary
 
-<!-- What does this PR do and why? Link the issue it addresses: Closes #___ -->
+<!-- What changed? Link the issue, if any. -->
 
 ## Licensing layer
 
-<!-- Which layer does this change touch? This determines the license of your contribution. -->
-
-- [ ] **Apache-2.0 extension** (3D Slicer, wellness/veterinary module, partner SDK, language binding)
-- [ ] **AGPL-3.0 core** (firmware, sensing/beamforming/reconstruction/signal-processing/calibration algorithms, hardware reference design)
-- [ ] Docs / data / tooling only
-- [ ] **This PR moves a file between the AGPL core and the Apache layer** — if checked, this is NOT an ordinary PR: it requires the `license-manifest` change process (and board approval for anything leaving the core). Link the approval.
+- [ ] AGPL-3.0-or-later software core
+- [ ] Apache-2.0 software or integration
+- [ ] CERN-OHL-S-2.0 hardware reference design
+- [ ] CC-BY-4.0 documentation or data
+- [ ] Third-party or mixed-license content (explain below)
 
 ## Checklist
 
-- [ ] Commits are signed off (DCO): `git commit -s`
-- [ ] New files carry the correct `SPDX-License-Identifier` for their layer
-- [ ] Tests and docs updated
-- [ ] No incompatible third-party code introduced
-- [ ] CI is green and `CODEOWNERS` review requested
+- [ ] Commits are signed off under the DCO
+- [ ] New source files have the appropriate SPDX header
+- [ ] Existing copyright and third-party notices are preserved
+- [ ] Tests and documentation are updated where relevant
+- [ ] A license change has documented contributor rights and required approvals
 
 ## Notes for reviewers
 
-<!-- Anything reviewers should focus on, risks, follow-ups. -->
+<!-- Describe licensing exceptions, third-party content, or required follow-up. -->

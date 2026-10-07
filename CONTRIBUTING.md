@@ -1,55 +1,36 @@
 # Contributing to Openwater
 
-Thanks for your interest in contributing. These guidelines apply org-wide unless a repository
-overrides them.
+These guidelines apply across Openwater repositories unless a repository states a more specific policy. The license in each repository's LICENSE file governs its published contents. Third-party components retain their own licenses and notices.
 
-## Before you start: understand the licensing layers
+## Licensing layers
 
-Openwater uses a deliberate two-layer license architecture. **Which layer your change touches
-determines the license of your contribution.**
+| Layer | License | Scope |
+| --- | --- | --- |
+| Reciprocal software core | AGPL-3.0-or-later | OpenLIFU console and transmitter firmware; OpenMOTION FPGA/HDL; sensing, measurement, beamforming, reconstruction, signal-processing and calibration core |
+| Permissive software and integration | Apache-2.0 | OpenMOTION console and sensor firmware; all bootloaders; 3D Slicer extensions; applications and tooling; wellness and veterinary modules; partner SDKs, language bindings and scripts |
+| Hardware reference designs | CERN-OHL-S-2.0 | Mechanical CAD, schematics, PCB layouts and related design sources |
+| Documentation and data | CC-BY-4.0 | Documentation, templates, tutorials and sample data |
 
-- **AGPL-3.0 core (permanent):** device firmware, sensing/measurement algorithms, beamforming,
-  reconstruction, signal processing, calibration core, and hardware reference designs. Contributions
-  to these are AGPL-3.0. The core boundary does not move without explicit board approval.
-- **Apache-2.0 extensions:** 3D Slicer extensions, wellness/veterinary modules, partner SDKs, and
-  language bindings. Contributions to these are Apache-2.0.
+The 3D Slicer and hardware rows describe the approved destination for repositories still carrying AGPL licenses. Their current LICENSE files remain controlling until contributor rights are confirmed and the relicensing changes are merged. No contributor's work may be relicensed without the rights to do so.
 
-The authoritative, per-path assignment is in
-[`license-manifest`](https://github.com/OpenwaterHealth/license-manifest). If you are unsure which
-license applies to the file you're changing, **open a License question issue before you invest work.**
+Per-repository and per-path assignments will be reflected in [`license-manifest`](https://github.com/OpenwaterHealth/license-manifest) in the separate publication step. If a file's license is unclear, open a license question before contributing.
 
-## Developer Certificate of Origin (DCO)
+## Developer Certificate of Origin
 
-All commits must be signed off under the [DCO](https://developercertificate.org/). Add a
-`Signed-off-by` line to each commit:
+Sign off every commit under the [DCO](https://developercertificate.org/):
 
-```
-git commit -s -m "your message"
+```sh
+git commit -s -m "Describe the change"
 ```
 
-By signing off you certify that you wrote the contribution or otherwise have the right to submit it
-under the license of the file(s) you changed. Contributions to relicensable areas may additionally
-require a Contributor License Agreement (CLA); the repository will tell you if so.
+The sign-off certifies that you wrote the contribution or have the right to submit it under the applicable license. A Contributor License Agreement may also be required in areas that need relicensing authority.
 
 ## Workflow
 
-1. **Open or find an issue** describing the change. For anything non-trivial, discuss the approach first.
-2. **Fork and branch** from `main`. Use a descriptive branch name.
-3. **Make focused commits**, each signed off (`-s`).
-4. **Keep license headers correct.** New files must carry the correct SPDX identifier for their layer
-   (`SPDX-License-Identifier: AGPL-3.0-only` or `SPDX-License-Identifier: Apache-2.0`).
-5. **Open a pull request** using the PR template. Direct pushes to `main` are disabled org-wide.
-6. **Pass CI.** Required checks must be green; a reviewer (per `CODEOWNERS`) must approve.
+1. Open or find an issue for substantial work.
+2. Create a focused branch and make signed-off commits.
+3. Preserve copyright and third-party notices. Add a valid SPDX header to new source files. Use `AGPL-3.0-or-later` for AGPL core source, `Apache-2.0` for permissive software, and `CERN-OHL-S-2.0` for hardware design sources where the corresponding license is effective.
+4. Open a pull request and pass the repository's required checks and review.
+5. For a license change, document rights and approvals before changing LICENSE, metadata or public license claims.
 
-## Pull request expectations
-- One logical change per PR; keep diffs reviewable.
-- Update docs and tests alongside code.
-- Do not add third-party code without confirming its license is compatible with the target layer.
-- Changes that would move a file between the AGPL core and the Apache layer are **not** ordinary PRs —
-  they require the manifest change process and, for the core, board approval.
-
-## Code of conduct
-All participation is governed by our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## Questions
-Open a **License question** issue for licensing, or see [SUPPORT.md](SUPPORT.md) for everything else.
+See the [Code of Conduct](CODE_OF_CONDUCT.md) for participation expectations.
