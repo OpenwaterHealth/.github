@@ -57,7 +57,7 @@ TSC members set the technical direction of the project, make architectural decis
 - Approve or reject contributions with regulatory, safety, or strategic implications
 - Define the project roadmap and release criteria
 - Resolve disputes escalated by Maintainers
-- Oversee the licensing transition and IP governance
+- Oversee licensing and IP governance
 - Represent the project in external partnerships
 
 ---
@@ -168,27 +168,21 @@ TSC members must disclose conflicts of interest (financial, institutional, or pe
 
 ## Intellectual Property and Licensing
 
-### Current Licensing
+### Current licensing
 
-Openwater's software is currently licensed under AGPL v3.0. The project is actively transitioning to Apache 2.0 to encourage broader commercial adoption and align with the open-source service revenue model.
+Openwater uses AGPL-3.0-or-later for the reciprocal software core; Apache-2.0 for permissive software and integrations, including OpenMOTION firmware and all bootloaders; CERN-OHL-S-2.0 for hardware reference designs; and CC-BY-4.0 for documentation and sample data. The [contribution policy](CONTRIBUTING.md) defines these layers. Each repository's current LICENSE file governs its published contents until any approved relicensing is completed.
 
-### Contributor License Agreement (CLA)
+### Contributor rights
 
-All contributors must sign the Openwater CLA before their first contribution is merged. The CLA:
+Contributors must sign off commits under the DCO. A CLA may be required where Openwater needs relicensing authority. A proposed change to a repository's license requires documented rights from the affected copyright holders and the applicable governance approval before publication.
 
-- Grants Openwater a perpetual, worldwide, non-exclusive license to use, modify, and distribute the contribution
-- Preserves the contributor's rights to use their own work for any purpose
-- Enables Openwater to manage the AGPL-to-Apache 2.0 licensing transition without needing to contact every contributor individually
+### Patent grant
 
-The CLA is designed to protect both the contributor and the project. It is a standard practice in open-source projects undergoing license transitions.
+Any patent grant follows the applicable license and any signed contributor agreement. Preserve third-party terms and notices when incorporating external components.
 
-### Patent Grant
+### Hardware and safety data
 
-Contributions that include patentable innovations are covered by the CLA's patent grant clause. Contributors retain ownership of their patents but grant Openwater and downstream users a royalty-free license to practice those patents within the scope of the project.
-
-### Hardware and Safety Data
-
-Hardware designs and safety data contributed to the project are shared under the same licensing terms as the software. Contributors who share safety data (adverse events, calibration data, testing protocols) retain the right to publish and use that data independently.
+Hardware reference designs and safety data can have different licenses. Use the repository's LICENSE and file-level notices; do not assume that a software license also covers design sources or data.
 
 ---
 
