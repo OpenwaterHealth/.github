@@ -1,5 +1,9 @@
 # `.github` — Openwater organization defaults
 
+## Disclaimer
+
+CAUTION - Investigational device. Limited by Federal (or United States) law to investigational use. The system described here has not been evaluated by the FDA and is not designed for the treatment or diagnosis of any disease. It is provided AS-IS, with no warranties. User assumes all liability and responsibility for identifying and mitigating risks associated with using this software.
+
 This repository holds the **organization-wide health files, templates, and policy stubs** for
 [github.com/OpenwaterHealth](https://github.com/OpenwaterHealth). GitHub automatically applies the
 files here to **every repository in the org** that does not provide its own copy, so this repo is the
