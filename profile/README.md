@@ -40,11 +40,11 @@ An open-source platform for focused ultrasound neuromodulation research planning
 
 | Repository | Description |
 |:-----------|:------------|
-| [**openlifu-python**](https://github.com/OpenwaterHealth/openlifu-python) | Core Python toolbox for treatment planning, simulation, and transducer control |
+| [**openlifu-python**](https://github.com/OpenwaterHealth/openlifu-python) | Core Python toolbox for research sonication planning, simulation, and transducer control |
 | [**openlifu-desktop-application**](https://github.com/OpenwaterHealth/openlifu-desktop-application) | Desktop GUI for sonication planning and system control (C++) |
-| [**SlicerOpenLIFU**](https://github.com/OpenwaterHealth/SlicerOpenLIFU) | 3D Slicer extension for Open-LIFU treatment planning |
+| [**SlicerOpenLIFU**](https://github.com/OpenwaterHealth/SlicerOpenLIFU) | 3D Slicer extension for Open-LIFU research sonication planning |
 | [**openlifu-sdk**](https://github.com/OpenwaterHealth/openlifu-sdk) | Standalone hardware I/O interface library |
-| [**OpenLIFU-3DScanner**](https://github.com/OpenwaterHealth/OpenLIFU-3DScanner) | 3D mesh capture application for patient registration (Kotlin) |
+| [**OpenLIFU-3DScanner**](https://github.com/OpenwaterHealth/OpenLIFU-3DScanner) | 3D mesh capture application for sbject/device spatial registration (Kotlin) |
 
 #### Firmware
 
@@ -74,7 +74,7 @@ An open-source platform for focused ultrasound neuromodulation research planning
 
 ### Open-Motion — Near-Infrared Optical Blood Flow Imaging
 
-An open-source platform for non-invasive cerebral blood flow measurement, with clinical validation data from a multi-site stroke study.
+An open-source platform for non-invasive cerebral blood flow measurement, with investigational evidence from a multi-site stroke study.
 
 #### Software
 
